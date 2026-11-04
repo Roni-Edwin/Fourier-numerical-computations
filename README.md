@@ -99,6 +99,14 @@ $\kappa_m(0)=1$, it gives
 ```math
 \kappa_d''(0)=-\frac{4\pi^2}{d}.
 ```
+Writing the second derivative as 
+```math
+\kappa_d''(r)=-4\pi^2\int_{\mathbb{S}^{d-1}}x_1^2e^{-2\pi i r x_1}\mu(\textup{d}x)
+```
+gives the bound 
+```math
+\left|\kappa_d''(r)\right|\le \frac{4\pi^2}{d}\quad \forall r>0.
+```
 
 
 
