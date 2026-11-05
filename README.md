@@ -41,7 +41,7 @@ giving
  ```math
      \sup_{r \in [r_i,r_{i+1}]}|H(r)|\le \max(|H(r_i)|,|H(r_{i+1}|)+\frac{(r_{i+1}-r_i)^2}{8}\sup_{r \in [r_i,r_{i+1}]}|H''(r)|.
 ```
- Combining this with the tail bound gives us the upper bound for the relevant supremum.
+ Combining this with the tail bound gives us the upper bound for the relevant supremum. We compare this by plugging the entire mesh into ball arithmetic.
 
  For the second derivative of $\kappa_d$, Recall that
 ```math
