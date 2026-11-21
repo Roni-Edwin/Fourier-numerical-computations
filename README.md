@@ -10,7 +10,7 @@ is the space of radial integrable functions such that
 f,\hat{f} \in L^1(\mathbb{R}^d;\mathbb{R})
 ```
 
-Verify_SAVED_CANDIDATES_explained.ipynb, contains code for certifying the supremum 
+Upper_bound_wd_certified.ipynb, contains code for certifying the supremum 
 ```math
 \sup_{r>0}\left|\sum_{j=1}^Nc_j\mathopen{}\left(\kappa_d(rs_j)-s_j^{-d}\kappa_d(r/s_j)\right)\mathclose{}-\kappa_d(r)\right|
 ```
