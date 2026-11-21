@@ -14,7 +14,7 @@ Upper_bound_wd_certified.ipynb, contains code for certifying the supremum
 ```math
 \sup_{r>0}\left|\sum_{j=1}^Nc_j\mathopen{}\left(\kappa_d(rs_j)-s_j^{-d}\kappa_d(r/s_j)\right)\mathclose{}-\kappa_d(r)\right|
 ```
-for candidates $c \in \mathbb{R}^{N_d}$, $s \in (0,\infty)^{N_d}$, dimensions $d$, read from a SAVED_CANDIDATES.py file. For given $c,s,d$, we  bound the supremum of 
+for candidates $c \in \mathbb{R}^{N_d}$, $s \in (0,\infty)^{N_d}$, dimensions $d$, read from a SAVED_CANDIDATES.json file. For given $c,s,d$, we  bound the supremum of 
 ```math
     \mathcal{I}_d(c,s,r)\coloneqq \sum_{j=1}^Nc_j\mathopen{}\left(\kappa_d(rs_j)-s_j^{-d}\kappa_d(r/s_j)\right)\mathclose{}-\kappa_d(r),
 ```
